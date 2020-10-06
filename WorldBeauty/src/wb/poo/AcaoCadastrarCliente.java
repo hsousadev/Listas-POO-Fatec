@@ -14,15 +14,15 @@ public class AcaoCadastrarCliente {
 		Cliente cliente = new Cliente();
 		System.out.println("Digite o nome do cliente: ");
 		cliente.nome = controle.texto().toUpperCase();
-		System.out.println("Digite o nï¿½mero do telefone: ");
+		System.out.println("Digite o número do telefone: ");
 		cliente.telefone = controle.texto();
 		System.out.println("Digite a data de nascimento: DD/MM/AAAA ");
 		cliente.dataDeNascimento = controle.texto();
-		System.out.println("Digite o Genï¿½ro: F/M ");
+		System.out.println("Digite o Genêro: F/M ");
 		cliente.genero = controle.texto().toUpperCase();
 		while (!(cliente.genero.equals("M") || cliente.genero.equals("F"))) {
-			System.out.println("\nGï¿½nero deverï¿½ ser M ou F");
-			System.out.print("Digite o genero (M/F): ");
+			System.out.println("\nGenêro dever ser M ou F");
+			System.out.print("Digite o gênero (M/F): ");
 			cliente.genero = controle.texto().toUpperCase();
 		}
 		unidade.clientes.add(cliente);

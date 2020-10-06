@@ -19,21 +19,13 @@ public class AcaoExcluirCliente {
 	
 	public void excluirCliente() { 
 		
-//		Iterator<Cliente> i = clientes.iterator();
-		
+	
 		Controle controle = new Controle();
 		
 		System.out.println("Digite o Nome do cliente que deseja excluir: ");
 		String cliExcluir = controle.texto().toUpperCase();
 		
-//		while (i.hasNext()) {
-//            Cliente atual = i.next();
-//            if (atual.getNome().equals(cliExcluir)) {   
-//                i.remove();
-//                System.out.println("Cliente excluído");
-//                
-//            }
-//		}
+
 		
 		for (Cliente astopho : clientes) {
 			if (astopho.getNome().equals(cliExcluir)) {   
@@ -43,9 +35,6 @@ public class AcaoExcluirCliente {
 			}
 		}
 		
-		
-		System.out.println("Rodou até aqui");
-
 	}
 
 }

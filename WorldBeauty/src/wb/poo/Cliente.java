@@ -15,14 +15,18 @@ public class Cliente implements Comparable<Cliente>, Serializable{
 	public String telefone;
 	public String dataDeNascimento;
 	public String genero;
-	public List<Servicos> servicos = new ArrayList<>();
+	public List<Servicos> servicos = new ArrayList<>();	
+
 	
-	public Map<String, Integer> serv = new HashMap<>(); 
+	
+	
+	
 	
 	public String getNome() {
 		return nome;
 	}
 	
+
 	
 	@Override
 	public String toString() {

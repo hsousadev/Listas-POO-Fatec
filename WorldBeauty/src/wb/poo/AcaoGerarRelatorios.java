@@ -21,7 +21,7 @@ public class AcaoGerarRelatorios {
 		 
 		int opcao=20;		
 		Controle controle = new Controle();
-		
+			
 		
 			
 			do {
@@ -42,13 +42,13 @@ public class AcaoGerarRelatorios {
 							int idade = AcaoCalcularIdade.calcIdade(cliente.dataDeNascimento);
 							totalIdades += idade;	}
 						int mediaIdades = totalIdades/(unidade.clientes.size());
-						System.out.println("A idade m√©dia dos clientes √© de :" + mediaIdades+" anos.");
+						System.out.println("A idade mÈdia dos clientes È de :" + mediaIdades+" anos.");
 					break;
 			
 					case 2:
 						int contadorClientes= 0;
 						String definicaoGenero = "";
-						System.out.println("Digite o g√™nero (F/M): ");
+						System.out.println("Digite o gÍnero (F/M): ");
 						definicaoGenero = controle.texto().toLowerCase();
 						int idadeGenero= 0;
 						for(int i = 0; i < unidade.clientes.size(); i++) {
@@ -59,57 +59,19 @@ public class AcaoGerarRelatorios {
 								contadorClientes++;}
 							if(contadorClientes != 0) {
 								int total =idadeGenero / (unidade.clientes.size());
-								System.out.println("A m√©dia de Idade para o gen√™ro"+ definicaoGenero+ " √© de :"+ total+ "anos");
+								System.out.println("A mÈdia de Idade para o gÍnero"+ definicaoGenero+ " È de :"+ total+ "anos");
 								}
 							else {
-								System.out.println("N√£o possuem clientes do gen√™ro."+definicaoGenero +"Cadastrados");
+								System.out.println("N„o possuem clientes do gÍro."+definicaoGenero +"Cadastrados");
 								
 							}
 						}
 						break;
 			
 					case 3:
-						
-						/*List<String> lista2 = new ArrayList<>();
-											for(i = 0; i < u.agenda.size(); i++) {
-												c = u.agenda.get(i);
-												lista2.addAll(c.servicosCli);*/
-						List<String> myList = new ArrayList<String>(); // s√≥ pra lembrar: incrementar valores no MAPA
-				          /*	{
-				        		add("Manicure");
-				        		add("Pedicure");
-				        		add("Design de sombrancelhas");
-				        		add("Corte de cabelo Feminino");
-				        		add("Tintura");
-				        		add("Remo√ß√£o de rugas");
-				        		add("Manicure");
-				        		add("Aplica√ß√£o de botox.");
-				        		add("Tratamento de Emagrecimento");
-				        		add("Redu√ß√£o de medidas");
-				        		add("Corte de cabelo Masculino");
-				        		add("Manicure");
-				        		add("Tintura");
-				            }
-
-				};
-					if(unidade.clientes.size() !=0) {
-						for(int i =0; i < unidade.clientes.size();i++) {
-							cliente = unidade.clientes.get(i);
-							String servico = cliente.servicos.toString();
-							myList.add(servico);
-							
-							//listaServico.add(cliente);		
-						//}
-					//}
-					
-					Set<String> uniqueSet = new HashSet<String>(myList);  
-				    for (String a : uniqueSet) {  
-				        System.out.println(a + ": " + Collections.frequency(myList,a)); 
-				    }
-						}
-					}*/
-						
-						break;
+						System.out.println("opÁ„o 3");
+								
+					break;
 			
 					case 4:
 						System.out.println("opcao 4");
@@ -119,7 +81,7 @@ public class AcaoGerarRelatorios {
 			}
 				}
 				else{
-					System.out.println("N√£o h√° clientes cadastrados");
+					System.out.println("N„o h· clientes cadastrados");
 					
 				}
 			}while(opcao!=0);

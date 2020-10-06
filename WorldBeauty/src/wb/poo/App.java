@@ -2,6 +2,8 @@ package wb.poo;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 
 //Atualizado2
 
@@ -10,7 +12,8 @@ public class App {
 	@SuppressWarnings("unused")
 	public static void main(String[] args) throws Exception {
 		
-		String caminho = "/home/henrique/cadastrosSalvos5.ser";
+		String caminho = "C:\\Users\\cfrab\\OneDrive\\Documentos\\Listas\\WB.ser";
+		//String caminho = "/home/henrique/cadastrosSalvos5.ser";
 		
 		AcaoSerializar serial = new AcaoSerializar();
 		
@@ -38,7 +41,7 @@ public class App {
 			unidade = filial;
 		
 		}else {
-			System.out.println("Unidade informada nï¿½o cadastrada");
+			System.out.println("Unidade informada não cadastrada");
 		}
 		
 		
@@ -46,7 +49,7 @@ public class App {
 		if(f.exists()) {
 			unidade = (Lojas) serial.load();
 		}
-		
+				
 		int escolha =20;
 		
 		

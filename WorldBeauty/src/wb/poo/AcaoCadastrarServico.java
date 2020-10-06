@@ -16,7 +16,7 @@ public class AcaoCadastrarServico {
 		
 		int opcaoServico=20;
 		 
-		System.out.println("Informe o nome do cliente que deseja incluir serviï¿½o");
+		System.out.println("Informe o nome do cliente que deseja incluir serviço");
 		String nomecliente = controle.texto().toUpperCase();
 		
 		if (unidade.clientes.size() != 0) {
@@ -45,67 +45,67 @@ public class AcaoCadastrarServico {
 					case 3:
 						consumo.nomeServico= "Design de sombrancelha";
 						definicaocliente.servicos.add(consumo);	
-						System.out.println("Serviï¿½o cadastrado com sucesso!");
+						System.out.println("Serviço cadastrado com sucesso!");
 					break;
 					
 					case 4:
 						consumo.nomeServico= "Corte de cabelo Feminino";
 						definicaocliente.servicos.add(consumo);
-						System.out.println("Serviï¿½o cadastrado com sucesso!");
+						System.out.println("Serviço cadastrado com sucesso!");
 					break;
 					
 					case 5:
 						consumo.nomeServico= "Tintura";
 						definicaocliente.servicos.add(consumo);
-						System.out.println("Serviï¿½o cadastrado com sucesso!");
+						System.out.println("Serviço cadastrado com sucesso!");
 					break;
 					
 					case 6:
-						consumo.nomeServico= "Remoï¿½ï¿½o de rugas";
+						consumo.nomeServico= "Remoção de rugas";
 						definicaocliente.servicos.add(consumo);
-						System.out.println("Serviï¿½o cadastrado com sucesso!");
+						System.out.println("Serviço cadastrado com sucesso!");
 					break;
 					
 					case 7:
-						consumo.nomeServico= "Remoï¿½ï¿½o de manchas de pele";
+						consumo.nomeServico= "Remoção de manchas de pele";
 						definicaocliente.servicos.add(consumo);
-						System.out.println("Serviï¿½o cadastrado com sucesso!");
+						System.out.println("Serviço cadastrado com sucesso!");
 					break;
 					
 					case 8:
-						consumo.nomeServico= "Aplicaï¿½ï¿½o de botox";
+						consumo.nomeServico= "Aplicação de botox";
 						definicaocliente.servicos.add(consumo);
-						System.out.println("Serviï¿½o cadastrado com sucesso!");
+						System.out.println("Serviço cadastrado com sucesso!");
 					break;
 					
 					case 9:
 						consumo.nomeServico= "Tratamento de Emagrecimento";
 						definicaocliente.servicos.add(consumo);
-						System.out.println("Serviï¿½o cadastrado com sucesso!");
+						System.out.println("Serviço cadastrado com sucesso!");
 					break;
 					
 					case 10:
-						consumo.nomeServico= "Reduï¿½ï¿½o de medidas";
+						consumo.nomeServico= "Redução de medidas";
 						definicaocliente.servicos.add(consumo);
-						System.out.println("Serviï¿½o cadastrado com sucesso!");
+						System.out.println("Serviço cadastrado com sucesso!");
 					break;
 					
 					case 11:
 						consumo.nomeServico= "Corte de cabelo Masculino";
 						definicaocliente.servicos.add(consumo);
-						System.out.println("Serviï¿½o cadastrado com sucesso!");
+						System.out.println("Serviço cadastrado com sucesso!");
 					break;
 					
 					case 12:
 						consumo.nomeServico= "Modelagem/corte de barba";
 						definicaocliente.servicos.add(consumo);
-						System.out.println("Serviï¿½o cadastrado com sucesso!");
+						System.out.println("Serviço cadastrado com sucesso!");
 					break;
 					
 					case 13:
 						consumo.nomeServico= "Tratamento para queda de cabelo";
 						definicaocliente.servicos.add(consumo);
-						System.out.println("Serviï¿½o cadastrado com sucesso!");
+						System.out.println("Serviço cadastrado com sucesso!");
 						
 					break;
 					
@@ -117,12 +117,12 @@ public class AcaoCadastrarServico {
 			
 	
 				else {
-					System.out.println("Cliente nï¿½o cadastrado");
+					System.out.println("Cliente não cadastrado");
 				}
 
 }
 	}else {
-		System.out.println("Sem cadastros de clientes");
+		System.out.println("Não há cadastros de clientes");
 	}
 		
 		

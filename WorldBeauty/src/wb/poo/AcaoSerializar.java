@@ -11,8 +11,10 @@ import java.util.List;
 //Atualizado32
 
 public class AcaoSerializar {
+	
+	String caminho = "C:\\Users\\cfrab\\OneDrive\\Documentos\\Listas\\WB.ser";
 
-	String caminho = "/home/henrique/cadastrosSalvos5.ser";
+	//String caminho = "/home/henrique/cadastrosSalvos5.ser";
 	
 	public void save(Lojas lojinha) throws Exception {
 		

@@ -9,7 +9,7 @@ public class Servicos implements Serializable{
 	
 	public String toString() {
 		String delimitador = "%%%%%%%%%%%%%%%%%%%%%%%%";
-		String info = "Nome do ServiÃ§o: " + nomeServico;
+		String info = "Nome do Serviço: " + nomeServico;
 		return "\n" + delimitador + "\n" + info + "\n" + delimitador + "\n";
 			}
 }

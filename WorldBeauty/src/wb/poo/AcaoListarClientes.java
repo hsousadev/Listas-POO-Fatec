@@ -33,12 +33,12 @@ public class AcaoListarClientes {
 											
 				} else {
 					
-					System.out.println("Nï¿½o Hï¿½ clientes cadastrados");
+					System.out.println("Não há clientes cadastrados");
 				}
 				break;
 				
-			case 2:// Listar por genï¿½ro
-				System.out.println("Informe o genï¿½ro que deseja consultar: (F/M)");
+			case 2:// Listar por gênero
+				System.out.println("Informe o gênero que deseja consultar: (F/M)");
 				String definicaogenero = controle.texto().toUpperCase();		
 				
 				if (unidade.clientes.size() != 0) {
@@ -51,7 +51,7 @@ public class AcaoListarClientes {
 									
 			 else {
 					
-					System.out.println("Nï¿½o Hï¿½ clientes cadastrados");
+					System.out.println("Não há clientes cadastrados");
 			
 					
 				}
@@ -70,11 +70,11 @@ public class AcaoListarClientes {
 						System.out.println(definicaocliente.servicos);
 					}
 					else {
-						System.out.println("Cliente nï¿½o cadastrado.");
+						System.out.println("Cliente não cadastrado.");
 						}
 				}
 				}else {
-					System.out.println("Nï¿½o hï¿½ cadastros de clientes");
+					System.out.println("Não há cadastros de clientes");
 				}
 			break;
 			
